@@ -10,6 +10,9 @@ A custom shipping request form and workflow that allows users to place a shippin
 - Custom Form with auto-population scripts and controlled UI
 - Entire request process powered by a workflow with approvals and task checking
 
+To-Do List
+- UI Improvements such as limiting city choices to the country that is currently selected.
+
 ## Getting Started
 Import the XML file that contains the update set for the form and workflow. Some of the form variables have reference qualifiers that the company must not be empty so it will not display options that are in the global domain. This update set was created in Paris version, build tag: glide-paris-06-24-2020__patch1-hotfix3-09-23-2020.
 
