@@ -20,4 +20,4 @@ Import the XML file that contains the update set for the form and workflow. Some
 Once your instance has successfully committed the update, access the service catalog through the service portal and select Facilities. Then select the Shipping Request item which will take you to the form. Once the form is submitted it will create a record in the Requests table as well as one in the Requested Items table. This will start the workflow called SC Shipping Request. The workflow will proceed and require one or two approvals depending on the option selected for shipping type. Then it will create catalog tasks and a dynamic number of events based on the value given in the number of envelopes question in the form. Once all the tasks are closed the record in the Requested Items table will also close, either closed complete or closed incomplete, depending on if the tasks were closed complete or closed incomplete.
 
 ## License
-This project uses the standard MIT License
+This project uses the standard [MIT License](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt "MIT License")
